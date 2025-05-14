@@ -6,7 +6,7 @@ def CheckPrime(Num1):
     for i in range(2,int(Num1 ** 0.5) + 1):
         if Num1 % i == 0:
             return ("Not Prime")
-        return ("Prime")
+    return ("Prime")
 
 
 def main():
