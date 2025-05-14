@@ -3,8 +3,8 @@
 def CountDigits(Num1):
     count = 0
     while Num1 > 0:
-        Num1 //= 10  
-        count = +1 
+        count += Num1 % 10  
+        Num1 //= 10 
     return count
 
 def main():
