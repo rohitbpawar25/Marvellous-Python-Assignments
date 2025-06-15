@@ -1,0 +1,3 @@
+pb
+ps aux
+python AdditionDemo.py < input.txt > outputX.txt 2> Error.txt
