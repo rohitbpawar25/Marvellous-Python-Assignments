@@ -16,4 +16,5 @@
 - **Assignment 13**: Object-Oriented Programming (OOP).
 - **Assignment 14**: Object-Oriented Programming (OOP).
 - **Assignment 15**: File Existence, Display, Copy, Compare, Frequency.
+- **Assignment 16**: File handling operations — read/write, copy, compare, count, clean.
 
