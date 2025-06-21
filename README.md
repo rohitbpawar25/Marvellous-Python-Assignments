@@ -20,4 +20,7 @@
 - **Assignment 17**: Scheduling,Automation Reminder,File Backup.
 - **Assignment 18**: File Existence, Display, Copy, Compare, Frequency (Re-Practice).
 - **Assignment 19**: File Search by Extension, Extension Rename, Dict to Dict Copy, Extension-Based Copy
+- **Assignment 20**: Duplicate file detection with CheckSum, deletion, logging with execution time tracking.
+
+
 
