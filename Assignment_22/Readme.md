@@ -118,3 +118,12 @@ def SendMail(LogPath, reciver, StartTime, TotalFiles, DeletedFiles):
 #     → Sends email summary + log file
 #     → Waits for the next round
 # ========================
+# your bash commands here
+echo "Done"
+```
+## 🧾 Conclusion
+
+A streamlined automation tool that simplifies duplicate file management by combining checksum validation, timestamped logging, and scheduled email reporting—ideal for efficient and traceable cleanup tasks.
+
+
+
