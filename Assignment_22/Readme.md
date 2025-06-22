@@ -2,7 +2,7 @@
 ---
 
 ## 📌 Objective
-This Python script automates the process of removing duplicate files based on checksums. It logs the operation results into a timestamped log file and sends the log via email at specified time intervals. All functionalities are modularized using separate functions, as per good software design principles.
+This Python script automates the process of removing duplicate files based on checksums. It logs the operation results into a timestamped log file and sends the log via email at specified time intervals. 
 
 ---
 
