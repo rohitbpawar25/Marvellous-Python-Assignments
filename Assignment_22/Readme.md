@@ -119,7 +119,6 @@ def SendMail(LogPath, reciver, StartTime, TotalFiles, DeletedFiles):
 #     → Waits for the next round
 # ========================
 # your bash commands here
-echo "Done"
 ```
 ## 🧾 Conclusion
 
