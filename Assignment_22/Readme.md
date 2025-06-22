@@ -25,19 +25,19 @@ This Python script automates the process of removing duplicate files based on ch
 
 ### 🎯 Command-Line Input
 
-# python DuplicateFileRemoval.py <DirectoryPath> <TimeIntervalInMinutes> <ReceiverEmail>
+- **python DuplicateFileRemoval.py <DirectoryPath> <TimeIntervalInMinutes> <ReceiverEmail>**
 
 ## Flow of Program
 
 ```bash
----
+
 main()
   └── TimeInterval(Min, Directory, EmailSend)
          └── task()  [executed every X minutes]
                ├── DirectoryDuplicate(Directory)
                │     └── CalculateChecksum(Fname)
                └── SendMail(LogPath, EmailSend, StartTime, TotalFiles, DeletedFiles)
----
+
 # ========================
 # Script starts executing here
 # ========================
