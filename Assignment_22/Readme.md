@@ -122,7 +122,7 @@ def SendMail(LogPath, reciver, StartTime, TotalFiles, DeletedFiles):
 ```
 ## 🧾 Conclusion
 
-A streamlined automation tool that simplifies duplicate file management by combining checksum validation, timestamped logging, and scheduled email reporting—ideal for efficient and traceable cleanup tasks.
+Conclusion: I have successfully created an automated Python script that removes duplicate files using checksums, logs the operation with timestamps in a specific folder, and emails the results at scheduled intervals.
 
 
 
