@@ -23,11 +23,13 @@ This Python script automates the process of removing duplicate files based on ch
 
 ## ⚙️ How to Use
 
-### 🎯 Command-Line Format
+### 🎯 Command-Line Input
+
+# python DuplicateFileRemoval.py <DirectoryPath> <TimeIntervalInMinutes> <ReceiverEmail>
+
+## Flow of Program
 
 ```bash
-python DuplicateFileRemoval.py <DirectoryPath> <TimeIntervalInMinutes> <ReceiverEmail>
-
 ---
 main()
   └── TimeInterval(Min, Directory, EmailSend)
