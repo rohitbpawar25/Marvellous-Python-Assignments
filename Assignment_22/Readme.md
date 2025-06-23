@@ -122,7 +122,7 @@ def SendMail(LogPath, reciver, StartTime, TotalFiles, DeletedFiles):
 ```
 ## 🧾 Conclusion
 
-Conclusion: I have successfully created an automated Python script that removes duplicate files using checksums, logs the operation with timestamps in a specific folder, and emails the results at scheduled intervals.
+I have successfully created an automated Python script that removes duplicate files using checksums, logs the operation with timestamps in a specific folder, and emails the results at scheduled intervals.
 
 
 
