@@ -21,5 +21,5 @@
 - **Assignment 18**: File Existence, Display, Copy, Compare, Frequency (Re-Practice).
 - **Assignment 19**: File Search By Extension, Extension Rename, Dict To Dict Copy, Extension-Based Copy.
 - **Assignment 20**: Duplicate File Detection With Checksum, Deletion, File.Log With Execution Time Tracking.
-- **Assignment 21**: PID Of Running, Current Process Details Written To LogInfo.Log, And Automated Gmail Delivery Of Logs.
-- **Assignment 22**: Script To Delete Duplicate Files Using Checksum, Log Deletions With Timestamps In Specific Folder, And Email The Log To The User.
+- **Assignment 21**: PID of Current Process and  Details Written To LogInfo.Log, And Automated Gmail Delivery Of Logs.
+- **Assignment 22**: Script To Delete Duplicate Files Using Checksum, And Email The Log To The User.
