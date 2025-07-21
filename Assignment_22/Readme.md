@@ -29,7 +29,7 @@ This Python script automates the process of removing duplicate files based on ch
 
 ## Flow of Program
 
-```bash
+```
 
 main()
   └── TimeInterval(Min, Directory, EmailSend)
@@ -118,7 +118,6 @@ def SendMail(LogPath, reciver, StartTime, TotalFiles, DeletedFiles):
 #     → Sends email summary + log file
 #     → Waits for the next round
 # ========================
-# your bash commands here
 ```
 ## 🧾 Conclusion
 
