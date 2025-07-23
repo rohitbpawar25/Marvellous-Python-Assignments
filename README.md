@@ -23,6 +23,6 @@
 - **Assignment 20**: Duplicate File Detection With Checksum, Deletion, File.Log With Execution Time Tracking.
 - **Assignment 21**: PID of Current Process and  Details Written And Automated Gmail Delivery Of Logs.
 - **Assignment 22**: Script To Delete Duplicate Files Using Checksum, And Email The Log To The User.
-- **Assignment 23**:
-- **Assignment 24**:
-- **Assignment 25**:
+- **Assignment 23**: Introduction To Machine Learning With Basic Model Implementation.
+- **Assignment 24**: Data Preprocessing And Model Training Using Supervised Learning Techniques.
+- **Assignment 25**: Valuation Of ML Models And Automation Of Prediction Workflows.
