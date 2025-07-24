@@ -1,4 +1,4 @@
-# Assignment/Assignment_ML_25/Assignment25_02.py
+# Apply Label Encoding to a 'City' column
 """
 Data = {'City': ['Pune', 'Mumbai', 'Delhi', 'Pune', 'Delhi']}
 
