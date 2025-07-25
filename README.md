@@ -26,3 +26,5 @@
 - **Assignment 23**: Introduction To Machine Learning With Basic Model Implementation.
 - **Assignment 24**: Data Preprocessing And Model Training Using Supervised Learning Techniques.
 - **Assignment 25**: Valuation Of ML Models And Automation Of Prediction Workflows.
+- **Assignment 26**: PlayPredictor Case Study using KNN Classification and Label Encoding.
+- **Assignment 27**: Advertisement Sales Prediction using Linear Regression and Evaluation Metrics.
