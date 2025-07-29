@@ -27,4 +27,8 @@
 - **Assignment 24**: Data Preprocessing And Model Training Using Supervised Learning Techniques.
 - **Assignment 25**: Valuation Of ML Models And Automation Of Prediction Workflows.
 - **Assignment 26**: PlayPredictor Case Study using KNN Classification and Label Encoding.
-- **Assignment 27**: Advertisement Sales Prediction using Linear Regression and Evaluation Metrics.
+- **Assignment 27**: Advertisement Sales Prediction Using Linear Regression And Evaluation Metrics.
+- **Assignment 28**: Wine Classification Using Chemical Features and Logistic Regression With Accuracy Evaluation.
+- **Assignment 29**: Diabetes Prediction Using Medical Attributes and Logistic Regression, KNN, and Decision Tree With Accuracy Evaluation.
+- **Assignment 30**: Bank Term Deposit Prediction Using Logistic Regression, KNN, and Random Forest With ROC-AUC and Accuracy Evaluation.
+
