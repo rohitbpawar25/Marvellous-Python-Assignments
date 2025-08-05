@@ -1,6 +1,6 @@
 # Marvellous-Python-Assignments
 
-- **Marvellous_Class**: All Programs Performed In Class.
+- **Marvellous_Class**: All Programs Performed In Class(Python,DSA,Automation)
 - **Assignment 1**: Function Definition & Execution.
 - **Assignment 2**: Modules & Functions.
 - **Assignment 3**: Lists & Data Storage.
