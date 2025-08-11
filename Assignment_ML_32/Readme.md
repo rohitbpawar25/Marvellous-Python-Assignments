@@ -101,6 +101,6 @@ Voting Classifier Testing Accuracy : 98.12%
 ```
 
 ## 📜 Author
-# Name : Rohit Pawar
-# Date : 2023-02-20
+- Name : Rohit Pawar
+-  Date : 2023-02-20
 
