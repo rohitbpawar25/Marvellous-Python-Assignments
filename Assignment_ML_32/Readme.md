@@ -22,14 +22,13 @@ Install required packages:
 ```bash
 pip install pandas scikit-learn matplotlib
 ```
-
 ---
 
 ### 📁 Dataset Details
 
 * **Source:** Kaggle or manually created from Real and Fake news sources.
+Kaggle :(https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)
 * **Files Used:**
-
   * `True.csv` → Real News  
   * `Fake.csv` → Fake News  
 * **Main Column Used:** `text`  
@@ -39,124 +38,70 @@ pip install pandas scikit-learn matplotlib
   * `1` → Real News  
 
 ---
+## 📂 Workflow
+1. **Data Preparation**  
+   - Load `True.csv` and `Fake.csv` datasets.
+   - Display dataset samples and class distribution.
 
-### 🔧 Workflow Breakdown
+2. **Data Preprocessing**  
+   - Assign labels: `0` for Fake, `1` for Real.
+   - Merge datasets into a single dataframe.
 
-#### 1. **Load and Display Data**
+3. **Vectorization**  
+   - Use `TfidfVectorizer` for text transformation.
 
-* Load both CSV files using `pandas`.
-* Preview samples and visualize class distribution using `matplotlib`.
+4. **Train-Test Split**  
+   - 80% training data, 20% testing data.
 
-#### 2. **Preprocessing**
+5. **Model Training**  
+   - Train Logistic Regression & Decision Tree models.
 
-* Add a `label` column (`0` for fake, `1` for real).
-* Concatenate fake and real news dataframes into one.
+6. **Model Evaluation**  
+   - Accuracy score and Confusion Matrix plots.
 
-#### 3. **Text Vectorization**
+7. **Ensemble Model**  
+   - Hard voting using Logistic Regression & Decision Tree.
 
-Uses TF-IDF to convert the text data into numerical feature vectors.
+8. **User Prediction Mode**  
+   - Enter custom news articles to classify.
 
-```python
-from sklearn.feature_extraction.text import TfidfVectorizer
+## 📊 Visualizations
+- **Class Distribution** (Bar Chart)
+- **Confusion Matrix** for each model
 
-vectorizer = TfidfVectorizer(stop_words='english', max_df=0.7)
-X_vectorized = vectorizer.fit_transform(df['text'])
-```
+## 🚀 Running the Project
+1. **Prepare your data**  
+   Place `True.csv` and `Fake.csv` in the same folder as the script.
 
-#### 4. **Train-Test Split**
-
-Split the dataset into 80% training and 20% testing data.
-
-```python
-from sklearn.model_selection import train_test_split
-
-X_train, X_test, y_train, y_test = train_test_split(
-    X_vectorized, df['label'], train_size=0.8, random_state=42
-)
-```
-
-#### 5. **Train Models**
-
-Train Logistic Regression and Decision Tree classifiers.
-
-```python
-from sklearn.linear_model import LogisticRegression
-from sklearn.tree import DecisionTreeClassifier
-
-logistic_model = LogisticRegression()
-tree_model = DecisionTreeClassifier()
-
-logistic_model.fit(X_train, y_train)
-tree_model.fit(X_train, y_train)
-```
-
-#### 6. **Evaluate Models**
-
-Evaluate training and testing accuracy and plot confusion matrices.
-
-```python
-from sklearn.metrics import accuracy_score, confusion_matrix, ConfusionMatrixDisplay
-
-predictions = model.predict(X_test)
-acc = accuracy_score(y_test, predictions)
-cm = confusion_matrix(y_test, predictions)
-ConfusionMatrixDisplay(cm).plot()
-```
-
-#### 7. **Voting Classifier**
-
-Combine both models using hard voting for better generalization.
-
-```python
-from sklearn.ensemble import VotingClassifier
-
-voting_clf = VotingClassifier(
-    estimators=[('lr', logistic_model), ('dt', tree_model)],
-    voting='hard'
-)
-voting_clf.fit(X_train, y_train)
-```
-
-#### 8. **Command-line Prediction**
-
-User can input a news article and get a real-time prediction.
-
-```python
-text = input("Enter a news article: ")
-vec = vectorizer.transform([text])
-prediction = voting_clf.predict(vec)
-print("REAL NEWS ✅" if prediction[0] else "FAKE NEWS ❌")
-```
-
----
-
-### 🧪 Sample CLI Prediction
-
+2. **Run the script**
 ```bash
-Enter a news article (or type 'exit' to quit): 
-"NASA announces breakthrough in Mars exploration mission."
+python fake_news_detection.py
+```
+3. **Follow the steps**  
+   * Data loading & visualization  
+   * Model training & evaluation  
+   * Ensemble voting classifier  
+   * Interactive news prediction
 
-Prediction: REAL NEWS ✅
+## 📈 Example Output
+
+**Class Distribution**
+```
+Fake News Count: 23481
+Real News Count: 21417
 ```
 
----
-
-### 🗂️ Project Structure
-
+**Model Accuracies**
 ```
-📁 FakeNewsClassifier/
-├── True.csv
-├── Fake.csv
-├── fake_news_classifier.py
-├── README.md
+LogisticRegression Training Accuracy: 99.12%
+LogisticRegression Testing Accuracy : 98.75%
+DecisionTreeClassifier Training Accuracy: 100.00%
+DecisionTreeClassifier Testing Accuracy : 95.43%
+Voting Classifier Testing Accuracy : 98.12%
 ```
 
----
+## 📜 Author
 
-### 📅 Author & Contact
-
-* **Author:** Rohit Pawar 
-* **Date:** August 11, 2025  
-
----
+Name : Rohit Pawar
+Date : 2023-02-20
 
