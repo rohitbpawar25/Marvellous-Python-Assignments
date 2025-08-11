@@ -32,4 +32,5 @@
 - **Assignment_ML_29**: Diabetes Prediction Using Medical Attributes and Logistic Regression, KNN, and Decision Tree With Accuracy Evaluation.
 - **Assignment_ML_30**: Bank Term Deposit Prediction Using Logistic Regression, KNN, and Random Forest With ROC-AUC and Accuracy Evaluation.
 - **Assignment_ML_31**: Predict Breast Cancer Malignancy Using Decision Tree, Random Forest, And Gradient Boosting With Evaluation And Visualization.
+- **Assignment_ML_32**: Classify News Articles As Real Or Fake Using Logistic Regression, Decision Tree, And Voting Classifier.
 
