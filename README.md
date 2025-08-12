@@ -34,4 +34,6 @@
 - **Assignment_ML_31**: Predict Breast Cancer Malignancy Using Decision Tree, Random Forest, And Gradient Boosting With Evaluation And Visualization.
 - **Assignment_ML_32**: Classify News Articles As Real Or Fake Using Logistic Regression, Decision Tree, And Voting Classifier.
 - **Assignment_ML_33**: Case Study On Student Performance Using KMeans And Visualize Academic Groupings.
+- # Assignment_ML_28: Wine Classification Using Chemical Features and Logistic Regression With Accuracy Evaluation
+
 
