@@ -34,3 +34,4 @@
 - **Assignment_ML_31**: Decision Trees and Boosting for Breast Cancer Prediction
 - **Assignment_ML_32**: Classifying News Articles with Logistic Regression, Decision Tree
 - **Assignment_ML_33**: KMeans Clustering: Student Performance Analysis
+- **Assignment_ML_34**: Breast Cancer Prediction using Pipeline with Joblib-Dump/loaded User Input
