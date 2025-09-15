@@ -1,6 +1,8 @@
 # Marvellous Assignments
 
-- **Marvellous_Class**: Programs In Class (Python, DSA, Automation)
+- **Marvellous_Class**: Programs In Class (Python, DSA, Automation,Machine Learning,Deep Learinig,GenAI)
+- Audio Line :-
+- GenAi Course Link :-
 - **Assignment 1**: Function Definition & Execution
 - **Assignment 2**: Modules & Functions
 - **Assignment 3**: Lists & Data Storage
