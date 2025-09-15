@@ -1,7 +1,7 @@
 # Marvellous Assignments
 
 - **Marvellous_Class**: Programs In Class (Python, DSA, Automation,Machine Learning,Deep Learinig,GenAI)
-- Audio Line :- https://1024terabox.com/s/1KxMbiYN0NNjd-XV5YOb-PQ
+- Audio Link :- https://1024terabox.com/s/1KxMbiYN0NNjd-XV5YOb-PQ
 - GenAi Course Link :- https://1024terabox.com/s/1eAX23kAHCrUpI1ZcdaOSlg
 - **Assignment 1**: Function Definition & Execution
 - **Assignment 2**: Modules & Functions
