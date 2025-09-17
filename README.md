@@ -25,15 +25,17 @@
 - **Assignment 20**: Duplicate File Detection (Checksum, Deletion, Log)
 - **Assignment 21**: Process PID and Automated Gmail Log Delivery
 - **Assignment 22**: Delete Duplicates & Email Logs
-- **Assignment_ML_23**: Basic ML Model Implementation
-- **Assignment_ML_24**: Supervised Learning: Data Preprocessing & Model Training
-- **Assignment_ML_25**: ML Model Evaluation & Workflow Automation
-- **Assignment_ML_26**: KNN Classification: PlayPredictor Case Study
-- **Assignment_ML_27**: Linear Regression for Advertisement Sales Prediction
-- **Assignment_ML_28**: Logistic Regression for Wine Classification
-- **Assignment_ML_29**: Diabetes Prediction with Logistic Regression, KNN, Decision Tree
-- **Assignment_ML_30**: Bank Deposit Prediction with Logistic Regression, KNN, Random Forest
-- **Assignment_ML_31**: Decision Trees and Boosting for Breast Cancer Prediction
-- **Assignment_ML_32**: Classifying News Articles with Logistic Regression, Decision Tree
-- **Assignment_ML_33**: KMeans Clustering: Student Performance Analysis
-- **Assignment_ML_34**: Breast Cancer Prediction using Pipeline with Joblib-Dump/loaded User Input
+- **Assignment_23_ML**: Basic ML Model Implementation
+- **Assignment_24_ML**: Supervised Learning: Data Preprocessing & Model Training
+- **Assignment_24_ML**: ML Model Evaluation & Workflow Automation
+- **Assignment_26_ML**: KNN Classification: PlayPredictor Case Study
+- **Assignment_27_ML**: Linear Regression for Advertisement Sales Prediction
+- **Assignment_28_ML**: Logistic Regression for Wine Classification
+- **Assignment_29_ML**: Diabetes Prediction with Logistic Regression, KNN, Decision Tree
+- **Assignment_30_ML**: Bank Deposit Prediction with Logistic Regression, KNN, Random Forest
+- **Assignment_31_ML**: Decision Trees and Boosting for Breast Cancer Prediction
+- **Assignment_32_ML**: Classifying News Articles with Logistic Regression, Decision Tree
+- **Assignment_33_ML**: KMeans Clustering: Student Performance Analysis
+- **Assignment_34_ML**: Breast Cancer Prediction using Pipeline with Joblib-Dump/loaded User Input
+- **Assignment_35_DL**: Sentiment Analysis Using Simple RNN 
+- **Assignment_35_GenAI**: FLAN-T5 Based Text Summarizer and Context-Aware Q&A Assistant 
