@@ -38,4 +38,4 @@
 - **Assignment_33_ML**: KMeans Clustering: Student Performance Analysis
 - **Assignment_34_ML**: Breast Cancer Prediction using Pipeline with Joblib-Dump/loaded User Input
 - **Assignment_35_DL**: Sentiment Analysis Using Simple RNN 
-- **Assignment_35_GenAI**: FLAN-T5 Based Text Summarizer and Context-Aware Q&A Assistant 
+- **Assignment_36_GenAI**: FLAN-T5 Based Text Summarizer and Context-Aware Q&A Assistant 
